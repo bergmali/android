@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings for BMI -->
+    <string name="enter_height">height in cm</string>
+    <string name="enter_weight">weight in kg</string>
+    <string name="underweight">You\'re underweight. Your BMI: </string>
+    <string name="normal_weight">Your weight is normal. Your BMI:</string>
+    <string name="overweight">You\'re overweight! Your BMI:</string>
+    <string name="button_compute">Compute</string>
+    <string name="button_reset">Reset</string>
+    <string name="correctHeight">Please enter correct height</string>
+    <string name="correctWeight">Please enter correct weight</string>
+    <string name="textView"></string>
+    <!-- Strings for ColorDisplay -->
+    <string name="button_display">Display Color</string>
+    <string name="red_label">Red: </string>
+    <string name="blue_label">Blue: </string>
+    <string name="green_label">Green: </string>
+    <string name="hint_red">Amount of Red (RGB)</string>
+    <string name="hint_green">Amount of Green (RGB)</string>
+    <string name="hint_blue">Amount of Blue (RGB)</string>
+    <string name="background">#FFFFFF</string>
+    <string name="enterNumbers">Please enter a number between 0 and 255</string>
+    <!-- Strings for MyCountries -->
+    <string name="add">Add</string>
+    <string name="add_country">Add Country</string>
+    <string name="title_activity_add_country">AddCountry</string>
+    <string name="hint_year">Enter Year</string>
+    <string name="hint_country">Enter Country</string>
+    <string name="done">Done!</string>
+    <string name="correctInputsCountry">Please enter correct year and country (can\'t be empty)</string>
+    <string name="bothValues">Please enter both values</string>
+    <!-- Strings for Random -->
+    <string name="button_rand">New Random</string>
+    <string name="random">100</string>
+    <!-- Strings for VaxjoWeather -->
+    <string name="view_start">Start</string>
+    <string name="view_end">End</string>
+    <string name="sunny">Sunny</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="temp">Temp: </string>
+    <string name="wind">Wind: </string>
+    <string name="rain">Rain: </string>
+    <string name="noInternet">No Internet Connection Available</string>
+
+</resources>

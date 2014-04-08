@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assignment1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.assignment1.Assignment1"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RandomActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="Random" />
+        <activity
+            android:name=".BMI"
+            android:configChanges="orientation|screenSize"
+            android:label="BMI" />
+        <activity
+            android:name=".ColorDisplay"
+            android:label="Color Display" />
+        <activity
+            android:name=".MyCountries"
+            android:configChanges="orientation|screenSize"
+            android:label="My Countries" />
+        <activity
+            android:name=".VaxjoWeather"
+            android:label="Vaxjo Weather"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".AddCountry"
+            android:configChanges="orientation|screenSize"
+            android:label="Add Country" />
+    </application>
+
+</manifest>
