@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assignment2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.assignment2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- AlarmClock -->
+        <activity
+            android:name="com.example.assignment2.alarmclock.AlarmClock"
+            android:label="@string/title_activity_alarm_clock"
+            android:parentActivityName="com.example.assignment2.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.assignment2.alarmclock.AddAlarm"
+            android:label="@string/title_activity_add_alarm"
+            android:parentActivityName="com.example.assignment2.alarmclock.AlarmClock" >
+        </activity>
+        <activity
+            android:name="com.example.assignment2.alarmclock.EditAlarm"
+            android:label="@string/title_activity_edit_alarm"
+            android:parentActivityName="com.example.assignment2.alarmclock.AlarmClock" >
+        </activity>
+        <activity android:name="com.example.assignment2.alarmclock.AlarmDialog" >
+        </activity>
+
+        <receiver android:name="com.example.assignment2.alarmclock.AlarmReceiver" />
+
+        <!-- MyCountries -->
+        <activity
+            android:name="com.example.assignment2.mycountries.MyCountries"
+            android:label="@string/title_activity_my_countries"
+            android:parentActivityName="com.example.assignment2.MainActivity" >
+        </activity>
+        <activity
+            android:name="com.example.assignment2.mycountries.AddCountry"
+            android:label="@string/title_activity_add_country"
+            android:parentActivityName="com.example.assignment2.mycountries.MyCountries" />
+        <activity
+            android:name="com.example.assignment2.mycountries.EditCountry"
+            android:label="@string/title_activity_edit_country"
+            android:parentActivityName="com.example.assignment2.mycountries.MyCountries" />
+        <activity
+            android:name="com.example.assignment2.mycountries.Preferences"
+            android:label="@string/title_activity_preferences"
+            android:parentActivityName="com.example.assignment2.mycountries.MyCountries" >
+        </activity>
+        <activity
+            android:name="com.example.assignment2.mycountries.MyPreferenceFragment"
+            android:label="@string/title_activity_preference_fragment"
+            android:parentActivityName="com.example.assignment2.mycountries.MyCountries" >
+        </activity>
+
+        <!-- Media Player -->
+        <activity
+            android:name="com.example.assignment2.mediaplayer.MediaPlay"
+            android:label="@string/activity_media_player"
+            android:parentActivityName="com.example.assignment2.MainActivity" />
+
+        <service android:name="com.example.assignment2.mediaplayer.MusicService" />
+    </application>
+
+</manifest>

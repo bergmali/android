@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_country_menue"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/add">
+        <menu>
+            <item
+                android:id="@+id/add_country"
+                android:title="@string/add_country"/>
+            <item
+                android:id="@+id/sort_year"
+                android:title="@string/sort_year"/>
+            <item
+                android:id="@+id/sort_country"
+                android:title="@string/sort_country"/>
+            <item
+                android:id="@+id/prefs"
+                android:title="@string/settings"/>
+        </menu>
+    </item>
+
+</menu>

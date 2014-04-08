@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment2</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- MyAlarm -->
+    <string name="title_activity_add_alarm">Add Alarm</string>
+    <string name="title_activity_edit_alarm">Edit Alarm</string>
+    <string name="title_activity_alarm_clock">Alarm Clock</string>
+    <string name="setAlarm">Set Alarm</string>
+    <string name="current_time">Current Time</string>
+    <string name="empty">No alarms set. Press button to set new Alarm</string>
+    <string name="new_alarm">Set new alarm</string>
+    <string name="time_divider">:</string>
+    <string name="snooze">Snooze</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="activate">Activate Alarm</string>
+    <string name="deactivate">Deactivate Alarm</string>
+    <string name="alarm">Alarm</string>
+    <string name="good_morning">Good Morgning</string>
+    <!-- MyCountries -->
+    <string name="add">Menu</string>
+    <string name="add_country">Add Country</string>
+    <string name="title_activity_my_countries">My Countries</string>
+    <string name="title_activity_add_country">Add Country</string>
+    <string name="title_activity_edit_country">Edit Country</string>
+    <string name="hint_year">Enter Year</string>
+    <string name="hint_country">Enter Country</string>
+    <string name="done">Done!</string>
+    <string name="correctInputsCountry">Please enter correct year and country (can\'t be empty)</string>
+    <string name="bothValues">Please enter both values</string>
+    <string name="sort_year">Sort Entries by Year</string>
+    <string name="sort_country">Sort Entries by Country</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_preferences">Preferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_preference_fragment">PreferenceFragment</string>
+    <string name="correctHour">Please enter correct hour (0\-23)</string>
+    <string name="correctMin">Please enter correct minutes (0\-59)</string>
+    <string name="prefs_back_color_key">background color</string>
+    <string name="prefs_text_color_key">text color</string>
+    <string name="pres_text_size_key">text size</string>
+
+    <!-- Media Player -->
+    <string name="activity_media_player">Media Player</string>
+    <string name="no_music">No music found on Sd Card</string>
+    <string name="back_button">Button Previous Song</string>
+    <string name="play_button">Button Play Song</string>
+    <string name="pause_button">Button Pause Song</string>
+    <string name="next_button">Button Next Song</string>
+    <string name="media_menu">Menu</string>
+    <string name="exit_music_app">Exit</string>
+    <string name="dialog_exit">Do you really want to exit the application?</string>
+
+</resources>
